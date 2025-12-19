@@ -23,7 +23,7 @@ class Main
 		System.out.println("Initial Distances:");
 		System.out.println("The distance between Kart 1 and Kart 2 is " + kart1.distTo(kart2) + " metres.");
 		System.out.println("The distance between Kart 1 and Kart 3 is " + kart1.distTo(kart3) + " metres.");
-		System.out.println("The distance between Kart 2 and Kart 3 is " + kart2.distTo(kart3) + " metres.");
+		System.out.println("The distance between Kart 2 and Kart 3 is " + kart2.distTo(kart3) + " metres.\n");
 		
 		kart1.move(kart2.distTo(kart3), 85);
 		kart2.move(9.0, 125);
