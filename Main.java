@@ -28,6 +28,11 @@ class Main
 		kart1.move(kart2.distTo(kart3), 85);
 		kart2.move(9.0, 125);
 		kart3.move(5.5, 65);
+
+		System.out.println("New Positions:");
+		System.out.println("Kart 1: " + kart1);
+		System.out.println("Kart 2: " + kart2);
+		System.out.println("Kart 3: " + kart3 + "\n");
 		
 		System.out.println("New Distances:");
 		System.out.println("The distance between Kart 1 and Kart 2 is " + kart1.distTo(kart2) + " metres.");
